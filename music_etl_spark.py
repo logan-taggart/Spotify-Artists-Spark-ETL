@@ -34,6 +34,7 @@ consistent_rap_artists = artist_stats \
 # LOAD
 # ------------------
 
+# Show and save results
 consistent_rap_artists.show(5, truncate=False)
 consistent_rap_artists.write.csv("results", header=True, mode="overwrite")
 
